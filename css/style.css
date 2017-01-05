@@ -192,16 +192,16 @@ a:hover {
 	width: 100%;
 	height: 500px;
 	text-align: left;
+	display: flex;
+	align-items: center; /* align vertical */
 }
 
 .hero h1 {
 	color: #64627C;
 	font-size: 5em;
 	letter-spacing: -1px;
-	line-height: 1.2em;
-	margin-left: 600px;
-	margin-bottom: 0;
-	padding-top: .8em;
+	line-height: 1.1em;
+	margin: 0 0 0 600px;
 	text-align: left;
 }
 
@@ -223,7 +223,7 @@ a:hover {
 }
 
 .copy {
-
+	
 }
 
 a.purchase-button {
@@ -251,7 +251,6 @@ a:hover.purchase-button {
 .chapters {
 	text-align: center;
 	height: 480px;
-	border: 1px solid blue;
 }
 
 .chapters h3 {
@@ -344,11 +343,13 @@ a:hover.purchase-button {
 
 .quote {
 	text-align: center;
-	background-color: #f1cfcf;
 	width: 33.33333%;
 	display: inline-block;
 	min-height: 100%;
 	float: left;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
 }
 
 .quote h3 {
@@ -357,8 +358,12 @@ a:hover.purchase-button {
 	color: #fff;
 	text-align: center;
 	padding: 1em;
-	border: 1px solid blue;
-	
+	margin-bottom: 0;
+}
+
+.quote h3 span {
+	background-color: #3fbf7f;
+	padding: .2em .5em .2em .5em;
 }
 
 .subscribe {
@@ -512,11 +517,155 @@ img.about {
 /* Mobile */
 @media (max-width: 480px) and (min-width: 321px) {  
   
+  .hero {
+  	display: flex;
+  	align-items: center;
+  }
+  
+  .hero h1 {
+  	font-size: 3em;
+  	line-height: 1.1em;
+  	margin: 0 0 0 30px;
+  }
+  
+  .hero h2 {
+  	font-size: 1.5em;
+  	line-height: 1.4;
+  	margin: .2em 0 1.2em 30px;
+  }
+  
+  .cover {
+  	display: block;
+  }
+  
+  .copy {
+  	display: block;
+  }
+  
+  a.purchase-button {
+  	font-size: 1.4em;
+  	line-height: 1em;
+  	margin-left: 30px;
+  }
+  
+  .chapters {
+  	text-align: center;
+  	height: 480px;
+  }
+  
+  .chapters h3 {
+  	font-size: 1.2em;
+  	padding: 0 11% 0 11%;
+  }
+  
+  .chapters ul {
+  	display: inline-block;
+  	margin-top: 0;
+  	padding: 0;
+  }
+  
+  .chapters li {
+  	padding: 0 10px 0 10px;
+  	margin: 0 1.3em 3em 1.3em;
+  }
+  
+  .sample-container {
+  	vertical-align: top;
+  	height: 226px;
+  }
+  
+  .sample-headline {
+  	background-color: #95CEDF;
+  	margin-right: 0;
+  	width: 100%;
+  	min-height: 100%;
+  	display: block;
+  }
+  
+  .sample-headline h4 {
+  	color: #7FB9CB; 
+  	font-family: Bariol-Bold; 
+  	font-size: 1em; 
+  	letter-spacing: .5px; 
+  	text-align: left; 
+  	text-transform: uppercase; 
+  	padding: 0 10% 0 10%;
+  	margin-top: 30px;
+  }
+  
+  .sample-headline h1 {
+  	font-size: 3.5em !important;
+  	padding: 0 10% 0 10%;
+  	margin: 0;
+  }
+  
+  .sample-copy {
+  	font-family: Bariol-Serif-Regular; 
+  	font-size: 1.2em;
+  	text-align: left; 
+  	background-color: #F4F8FA; 
+  	margin: 0; 
+  	width: 100%;
+  	display: block;
+  	float: left;
+  }
+  
+  .sample-copy-container {
+  	padding: 0 10% 0 8%;
+  	margin: 30px 0 60px 0;
+  }
+  
+  .sample-copy p {
+  	margin-top: 0;
+  	margin-bottom: 1em;
+  }
+  
+  .quotes {
+  	text-align: center;
+  	width: 100%;
+  	height: 250px;
+  	margin-top: .5em;
+  }
+  
+  .quote {
+  	text-align: center;
+  	background-color: #f1cfcf;
+  	min-height: 100%;
+  	width: 100%;
+  	display: block;
+  	display: flex;
+  	justify-content: center; /* align horizontal */
+  	align-items: center; /* align vertical */
+  }
+  
+  .quote h3 {
+  	font-family: Bariol-Serif-Bold;
+  	font-size: 1.6em;
+  	color: #fff;
+  	text-align: center;
+  	padding: 1.4em;
+  	margin-bottom: 0;
+  }
+  
+  .footer {
+  	padding: 0 30px 0 30px;
+  	display: block;
+  	float: left;
+  	margin: 1em ;
+  }
+  
+  .footer p {
+  	width: 100%;
+  	font-size: .8em;
+  	text-align: center;
+  	display: inline-block;
+  	margin-bottom: .5em;
+  }
   
 }
 
 /* Mobile */
 @media (max-width: 320px) and (min-width: 0px) { 
-  
+	
   
 }
