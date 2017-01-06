@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="384px" height="494px" viewBox="0 0 384 494" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Book</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="350" height="528" rx="5"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="2" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.635294118   0 0 0 0 0.631372549   0 0 0 0 0.690196078  0 0 0 0.9 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Website" transform="translate(-234.000000, -106.000000)">
+            <g id="Hero" transform="translate(-26.000000, 0.000000)">
+                <g id="Hero-IMG">
+                    <g id="Book" transform="translate(277.000000, 122.000000)">
+                        <g id="Fill-2">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                                <use fill="#8683BA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M337.617142,322.445032 C327.412744,308.963446 309.171221,302.715639 306.681039,284.56261 C305.549858,276.332918 295.177072,266.103452 284.245628,257.498057 C289.012039,253.911979 295.725823,247.688027 289.846062,244.563129 C283.348212,241.112225 272.478181,244.066167 267.622624,245.688251 C267.166982,245.396038 266.695492,245.085933 266.261641,244.81161 C219.829752,215.375555 181.94412,243.062304 99.5620861,237.210079 C10.6861648,230.896673 -25.5215167,249.159034 -47.7786323,282.457479 C-101.833608,363.325129 -49.5080904,466.373189 -42.7190263,479 L3.88125227,479 C6.16936695,454.141959 12.7068375,441.648333 20.7697178,432.722895 C31.7071041,420.610937 47.9279552,407.604446 57.0685276,429.317711 C67.9068613,455.07426 81.3423538,475.743905 83.5017001,479 L141.520761,479 C121.054516,428.403301 128.313089,403.612847 133.121101,389.266547 C136.163997,380.19202 140.506462,372.518926 146.384242,365.905356 C152.481919,361.935623 159.405695,359.152636 167.054536,359.011498 C180.081931,358.770969 171.232574,365.742352 171.880377,370.872988 C172.155744,373.061609 187.80209,374.262269 191.179783,383.945078 C193.96316,391.926288 202.32518,390.461244 205.171951,393.627886 C207.630436,396.361177 205.585991,402.451944 202.75903,408.153092 C202.75903,408.153092 199.842922,415.178148 191.179783,417.350866 C183.970736,419.15782 171.450489,416.744572 161.265903,423.644393 C153.399146,428.973814 157.244368,446.319777 158.276496,451.142296 C161.368917,465.633709 168.326371,475.986422 170.531281,479 L219.728719,479 C203.886248,362.875875 238.239665,341.250075 245.234759,338.101324 C253.517536,339.119102 260.89101,340.651733 266.293338,342.514347 C282.763802,348.191641 286.18904,349.654697 298.984653,351.598813 C319.866919,354.765455 323.476395,349.416155 329.750385,342.438808 C340.630321,330.336789 337.617142,322.445032 337.617142,322.445032" fill="#7774AD" mask="url(#mask-2)"></path>
+                        </g>
+                        <text id="The-no-bullshit-pock" font-family="BariolSerif-Regular, Bariol Serif" font-size="16" font-weight="normal" line-spacing="26" fill="#FFFFFF">
+                            <tspan x="28" y="260">The no-bullshit pocket guide</tspan>
+                            <tspan x="28" y="286">with the info you need and</tspan>
+                            <tspan x="28" y="312">are dying to know as a pregger</tspan>
+                            <tspan x="28" y="338">or first-time mom.</tspan>
+                        </text>
+                        <text id="Preggers-Guide" font-family="Bariol-Regular, Bariol" font-size="68" font-weight="normal" line-spacing="72" fill="#FFFFFF">
+                            <tspan x="28" y="133">Preggers</tspan>
+                            <tspan x="28" y="205">Guide</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
