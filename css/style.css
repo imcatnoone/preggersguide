@@ -549,39 +549,62 @@ img.about {
 @media (max-width: 480px) and (min-width: 321px) {  
   
   .hero {
-  	display: flex;
+  	height: 323px;
+  	padding-top: 2em;
+  	display: block;
   	align-items: center;
+  	text-align: center;
+  }
+  
+  .cover {
+  	width: 100%;
+  	text-align: center;
+  	display: block;
+  	overflow: hidden;
+  }
+  
+  .cover img {
+  	width: 250px;
+  }
+  
+  .copy {
+  	width: 100%;
+  	text-align: center;
+  	display: block;
+  	margin-left: 0;
   }
   
   .hero h1 {
   	font-size: 3em;
+  	text-align: center;
   	line-height: 1.1em;
-  	margin: 0 0 0 30px;
+  	padding: 0 30px 0 30px;
+  	margin: .4em 0 0 0;
   }
   
   .hero h2 {
-  	font-size: 1.5em;
+  	font-size: 1.2em;
   	line-height: 1.4;
-  	margin: .2em 0 1.2em 30px;
-  }
-  
-  .cover {
-  	display: block;
-  }
-  
-  .copy {
-  	display: block;
+  	text-align: center;
+  	padding: 0 30px 0 30px;
+  	margin: .4em 0 0 0;
   }
   
   a.purchase-button {
+  	width: 80%;
   	font-size: 1.4em;
   	line-height: 1em;
-  	margin-left: 30px;
+  	margin-top: 1em;
+  	margin-left: 0;
+  	display: inline-block;
   }
   
   .chapters {
   	text-align: center;
-  	height: 480px;
+  	width: 100%;
+  	height: auto;
+  	display: block;
+  	float: left;
   }
   
   .chapters h3 {
