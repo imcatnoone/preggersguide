@@ -1,62 +1,62 @@
 /* first for IE 4–8 */
 @font-face {
   font-family: Bariol-Regular;
-  src: url("assets/bariol_regular-webfont.eot");
+  src: url("../assets/fonts/bariol_regular-webfont.eot");
 }
 
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: Bariol-Regular;
-  src: url("assets/bariol_regular-webfont.woff") format("woff");
+  src: url("../assets/fonts/bariol_regular-webfont.woff") format("woff");
 }
 
 /* first for IE 4–8 */
 @font-face {
   font-family: Bariol-Bold;
-  src: url("assets/bariol_bold-webfont.eot");
+  src: url("../assets/fonts/bariol_bold-webfont.eot");
 }
 
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: Bariol-Bold;
-  src: url("assets/bariol_bold-webfont.woff") format("woff");
+  src: url("../assets/fonts/bariol_bold-webfont.woff") format("woff");
 }
 
 /* first for IE 4–8 */
 @font-face {
   font-family: Bariol-Serif-Regular;
-  src: url("assets/bariol_serif_regular-webfont.eot");
+  src: url("../assets/fonts/bariol_serif_regular-webfont.eot");
 }
 
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: Bariol-Serif-Regular;
-  src: url("assets/bariol_serif_regular-webfont.woff") format("woff");
+  src: url("../assets/fonts/bariol_serif_regular-webfont.woff") format("woff");
 }
 
 /* first for IE 4–8 */
 @font-face {
   font-family: Bariol-Serif-Bold;
-  src: url("assets/bariol_serif_bold-webfont.eot");
+  src: url("../assets/fonts/bariol_serif_bold-webfont.eot");
 }
 
 /* then for WOFF-capable browsers */
 @font-face {
   font-family: Bariol-Serif-Bold;
-  src: url("assets/bariol_serif_bold-webfont.woff") format("woff");
+  src: url("../assets/fonts/bariol_serif_bold-webfont.woff") format("woff");
 }
 
 @font-face {
 font-family: entypo;
-src: url('assets/entypo.ttf'),
-     url('assets/entypo.eot'); /* IE9 */
+src: url('../assets/fonts/entypo.ttf'),
+     url('../assets/fonts/entypo.eot'); /* IE9 */
 -webkit-font-smoothing: antialiased;
 }
 
 @font-face {
 font-family: entypo-social;
-src: url('assets/entypo-social.ttf'),
-     url('assets/entypo-social.eot'); /* IE9 */
+src: url('../assets/fonts/entypo-social.ttf'),
+     url('../assets/fonts/entypo-social.eot'); /* IE9 */
 -webkit-font-smoothing: antialiased;
 }
 
@@ -189,7 +189,7 @@ a:hover {
 
 .hero {
 	background-color: #fafafc;
-	background-image: url("assets/images/bg.svg");
+  background-image: url("../assets/images/bg.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	width: 100%;
