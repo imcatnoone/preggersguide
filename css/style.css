@@ -309,6 +309,13 @@ a:hover.purchase-button {
 	overflow: hidden;
 }
 
+.sample-headline h2 {
+  font-size: 5em;
+  color: #fff;
+  margin: 0 0 0 0.6em;
+  text-align: left;
+}
+
 .sample-headline h4 {
 	color: #7FB9CB;
 	font-family: Bariol-Bold;
