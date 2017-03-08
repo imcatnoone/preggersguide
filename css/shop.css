@@ -68,23 +68,23 @@
 
 @font-face {
 font-family: entypo;
-src: url('entypo.ttf'),
-     url('entypo.eot'); /* IE9 */
--webkit-font-smoothing: antialiased; 
+src: url('../assets/fonts/entypo.ttf'),
+     url('../assets/fonts/entypo.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased;
 }
 
 @font-face {
 font-family: entypo-social;
-src: url('entypo-social.ttf'),
-     url('entypo-social.eot'); /* IE9 */
--webkit-font-smoothing: antialiased; 
+src: url('../assets/fonts/entypo-social.ttf'),
+     url('../assets/fonts/entypo-social.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased;
 }
 
 /* Toast Framework - type.css */
 body {
 	font: 1.2em/1.5 KievitWebPro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: #fafafa;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -102,7 +102,7 @@ strong {
 
 h1, h2, h3, h4, h5, h6 {
 	color: #343434;
-	-webkit-font-smoothing: antialiased; 
+	-webkit-font-smoothing: antialiased;
 	text-align: center;
 	font-weight: normal;
 }
@@ -130,7 +130,7 @@ h3 {
 h4 {
 	font-size: 1.2em;
 	line-height: 1.5em;
-  
+
 }
 h5 {
     font-size: 1.125em;
@@ -211,7 +211,7 @@ a:hover {
 
 .hero {
 	background-color: #3d99de;
-	background-image: url('../images/typoguide-cover.svg');
+	background-image: url('../assets/images/typoguide-cover.svg');
 	background-position: absolute;
 	background-position-x: 320px;
 	background-position-y: 60px;
@@ -335,7 +335,7 @@ form {
 	border-radius: 4px;
 	padding: 12px 17px 10px 17px;
 	text-decoration: none;
-	position: relative; 
+	position: relative;
 	z-index:1000;
 	text-align: center;
 	display: block;
@@ -367,7 +367,7 @@ a.backtotop {
 	border-radius: 40px;
 	padding: 12px 17px 10px 17px;
 	text-decoration: none;
-	position: relative; 
+	position: relative;
 	z-index:1000;
 }
 
@@ -383,7 +383,7 @@ a:hover.backtotop {
 }
 
 .green {
-	color: #3d99de; /* #3eaf8e; */	
+	color: #3d99de; /* #3eaf8e; */
 }
 
 .subscribe {
@@ -427,7 +427,7 @@ a:hover.backtotop {
 	border-radius: 4px;
 	padding: 12px 17px 10px 17px;
 	text-decoration: none;
-	position: relative; 
+	position: relative;
 	z-index:1000;
 	display: inline-block;
 	margin-bottom: .5em;
@@ -453,7 +453,7 @@ a:hover.backtotop {
 	padding: 12px 17px 10px 17px;
 	box-sizing: border-box;
 	text-decoration: none;
-	position: relative; 
+	position: relative;
 	z-index:1000;
 	display: inline-block;
 	text-align: center;
@@ -501,16 +501,16 @@ a:hover.backtotop {
 		top: 17px;
 		left: 112px;
 	}
-	
+
 	.hero {
 		background-position-x: 155px;
 		background-position-y: 60px;
 	}
-	
+
 	.hero h1 {
 		margin-left: 430px;
 	}
-	
+
 	.hero h6 {
 		margin-left: 430px;
 	}
@@ -519,21 +519,21 @@ a:hover.backtotop {
 
 /* Tablet */
 @media (max-width: 768px) and (min-width: 641px) {
-	
+
 	.price-tag {
 		top: 17px;
 		left: 10px;
 	}
-	
+
 	.hero {
 		background-position-x: 25px;
 		background-position-y: 60px;
 	}
-	
+
 	.hero h1 {
 		margin-left: 294px;
 	}
-	
+
 	.hero h6 {
 		margin-left: 294px;
 	}
@@ -541,20 +541,20 @@ a:hover.backtotop {
 }
 
 /* Mobile */
-@media (max-width: 640px) and (min-width: 481px) {  
-  
+@media (max-width: 640px) and (min-width: 481px) {
+
   .social {
   	width: 100%;
   	text-align: center;
   	position: absolute;
   	padding-right: 0;
   }
-  
+
   .price-tag {
   	top: 45px;
   	left: 10px;
   }
-  
+
   .hero {
   	background-position-x: 25px;
   	background-position-y: 80px;
@@ -562,7 +562,7 @@ a:hover.backtotop {
   	background-size: 35%;
   	height: 420px;
   }
-  
+
   .hero h1 {
   	font-size: 40px;
   	margin-left: 275px;
@@ -570,7 +570,7 @@ a:hover.backtotop {
   	padding-top: 100px;
   	text-align: left;
   }
-  
+
   .hero h6 {
   	font-size: 14px;
   	margin-left: 275px;
@@ -580,12 +580,12 @@ a:hover.backtotop {
   	text-align: left;
   	border-bottom: none;
   }
-  
+
   .hero ul,li {
   	color: #fff;
   	margin-top: 0;
   }
-  
+
   .description {
   	color: #8f9ca8;
   	font-size: .7em;
@@ -593,24 +593,24 @@ a:hover.backtotop {
   	margin-top: .4em;
   	margin-bottom: 3.5em;
   }
-  
+
 }
 
 /* Mobile */
-@media (max-width: 480px) and (min-width: 321px) {  
-  
+@media (max-width: 480px) and (min-width: 321px) {
+
   .social {
   	width: 100%;
   	text-align: center;
   	position: absolute;
   	padding-right: 0;
   }
-  
+
   .price-tag {
   	top: 45px;
   	left: 10px;
   }
-  
+
   .hero {
   	background-position-x: 39px;
   	background-position-y: 80px;
@@ -618,7 +618,7 @@ a:hover.backtotop {
   	background-size: 84%;
   	height: 460px;
   }
-  
+
   .hero h1 {
   	margin-left: 20px;
   	margin-bottom: 0;
@@ -626,7 +626,7 @@ a:hover.backtotop {
   	text-align: left;
   	visibility: hidden;
   }
-  
+
   .hero h6 {
   	margin-left: 20px;
   	margin-top: .8em;
@@ -635,13 +635,13 @@ a:hover.backtotop {
   	border-bottom: none;
   	visibility: hidden;
   }
-  
+
   .hero ul,li {
   	color: #fff;
   	margin-top: 0;
   	list-style: none;
   }
-  
+
   .description {
   	color: #8f9ca8;
   	font-size: .7em;
@@ -649,24 +649,24 @@ a:hover.backtotop {
   	margin-top: .4em;
   	margin-bottom: 3.5em;
   }
-  
+
 }
 
 /* Mobile */
-@media (max-width: 320px) and (min-width: 0px) { 
-  
+@media (max-width: 320px) and (min-width: 0px) {
+
   .social {
   	width: 100%;
   	text-align: center;
   	position: absolute;
   	padding-right: 0;
   }
-  
+
   .price-tag {
   	top: 45px;
   	left: 10px;
   }
-  
+
   .hero {
   	background-position-x: 25px;
   	background-position-y: 80px;
@@ -674,7 +674,7 @@ a:hover.backtotop {
   	background-size: 85%;
   	height: 360px;
   }
-  
+
   .hero h1 {
   	margin-left: 20px;
   	margin-bottom: 0;
@@ -682,7 +682,7 @@ a:hover.backtotop {
   	text-align: left;
   	visibility: hidden;
   }
-  
+
   .hero h6 {
   	margin-left: 20px;
   	margin-top: .8em;
@@ -691,13 +691,13 @@ a:hover.backtotop {
   	border-bottom: none;
   	visibility: hidden;
   }
-  
+
   .hero ul,li {
   	color: #fff;
   	margin-top: 0;
   	list-style: none;
   }
-  
+
   .description {
   	color: #8f9ca8;
   	font-size: .7em;
@@ -705,5 +705,5 @@ a:hover.backtotop {
   	margin-top: .4em;
   	margin-bottom: 3.5em;
   }
-  
+
 }
