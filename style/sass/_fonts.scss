@@ -1,0 +1,61 @@
+/* first for IE 4–8 */
+@font-face {
+  font-family: Bariol-Regular;
+  src: url("../../assets/fonts/bariol_regular-webfont.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: Bariol-Regular;
+  src: url("../../assets/fonts/bariol_regular-webfont.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: Bariol-Bold;
+  src: url("../../assets/fonts/bariol_bold-webfont.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: Bariol-Bold;
+  src: url("../../assets/fonts/bariol_bold-webfont.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: Bariol-Serif-Regular;
+  src: url("../../assets/fonts/bariol_serif_regular-webfont.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: Bariol-Serif-Regular;
+  src: url("../../assets/fonts/bariol_serif_regular-webfont.woff") format("woff");
+}
+
+/* first for IE 4–8 */
+@font-face {
+  font-family: Bariol-Serif-Bold;
+  src: url("../../assets/fonts/bariol_serif_bold-webfont.eot");
+}
+
+/* then for WOFF-capable browsers */
+@font-face {
+  font-family: Bariol-Serif-Bold;
+  src: url("../../assets/fonts/bariol_serif_bold-webfont.woff") format("woff");
+}
+
+@font-face {
+font-family: entypo;
+src: url('../../assets/fonts/entypo.ttf'),
+     url('../../assets/fonts/entypo.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased;
+}
+
+@font-face {
+font-family: entypo-social;
+src: url('../../assets/fonts/entypo-social.ttf'),
+     url('../../assets/fonts/entypo-social.eot'); /* IE9 */
+-webkit-font-smoothing: antialiased;
+}
