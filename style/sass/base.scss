@@ -36,6 +36,7 @@ a {
     opacity: 0.7;
     text-decoration: none;
   }
+  // might need to add a visited state here
 }
 
 // Social styles
@@ -54,4 +55,21 @@ a {
 
 .twitter-share-button {
 	margin-right: 5px;
+}
+
+// Price tag styles
+.price-tag {
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center;
+	position: absolute;
+	top: 17px;
+	left: 277px;
+	color: $white;
+	background-color: #F4B400;
+	-moz-border-radius: 600px;
+	-webkit-border-radius: 600px;
+	-khtml-border-radius: 600px;
+	border-radius: 600px;
+	padding: 24px 23px 22px 23px;
 }
