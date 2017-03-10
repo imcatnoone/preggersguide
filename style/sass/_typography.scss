@@ -1,0 +1,61 @@
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: $gray;
+	margin-bottom: 1.5em;
+	font-weight: normal;
+}
+
+strong {
+	font-family: $bold-sans-serif;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $purple;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	font-weight: normal;
+}
+
+h1 {
+    font-size: 2.4em;
+    line-height: 1em;
+    margin-bottom: .5em;
+}
+h2 {
+    font-size: 2em;
+    line-height: 1.3em;
+    margin-top: 1.5em;
+    margin-bottom: .3em;
+}
+h3 {
+    font-size: 1.1em;
+   	color: $light-gray;
+    line-height: 1.4em;
+    -webkit-margin-before: 0;
+}
+h4 {
+	font-size: 1.2em;
+	line-height: 1.5em;
+
+}
+h5 {
+    font-size: 1.125em;
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+    text-align: left;
+}
+h6 {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin-top: 1.4em;
+    margin-bottom: .7em;
+    color: $blue-violet;
+    text-align: center;
+}
+
+.entypo {
+	font-family: entypo;
+}
