@@ -2,3 +2,56 @@
 @import "grid";
 @import "fonts";
 @import "animation";
+@import "variables";
+@import "typography";
+@import "oldstyle"; // will be removed once everything's been separated out
+
+// Base styles
+body {
+	font: 16px/1.5 $sans-serif;
+	background-color: $white;
+	color: $purple;
+	-webkit-font-smoothing: antialiased;
+	padding: 0;
+	margin: 0;
+}
+
+ul, ol, dl, blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, li {
+	color: $dark-gray;
+	list-style: disc;
+	line-height: 1.5em;
+	list-style-position: inside;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: $dark-gray;
+  text-decoration: underline;
+  :hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+}
+
+// Social styles
+.social {
+	width: 100%;
+	text-align: right;
+	position: fixed;
+	margin-right: 0;
+	padding-right: 20px;
+}
+
+.fb {
+	width: 130px;
+	padding-top: 7px;
+}
+
+.twitter-share-button {
+	margin-right: 5px;
+}
