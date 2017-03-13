@@ -34,7 +34,7 @@
 }
 
 .hero h2 {
-	font-family: serif;
+	font-family: $serif;
 	color: $light-gray;
 	font-size: 1.4em;
 	line-height: 1.4;
@@ -69,7 +69,9 @@ a.purchase-button {
 a:hover.purchase-button {
 	opacity: .8;
 }
+// End Hero section styling
 
+// Styling for Chapter section
 .chapters {
 	text-align: center;
 	height: 430px;
@@ -101,4 +103,72 @@ a:hover.purchase-button {
 	display: block;
 	text-align: center;
 	margin: 0;
+}
+// End Chapter section styling
+
+// Sample section styling
+.sample-container {
+	vertical-align: top;
+	height: 370px; // TODO: fix height bug
+}
+
+.sample-headline {
+	background-color: $baby-blue;
+	margin-right: 0;
+	width: 40%;
+	min-height: 100%;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+.sample-headline h2 {
+  font-size: 5em;
+  color: $white;
+  margin: 0 0 0 0.6em;
+  text-align: left;
+}
+
+.sample-headline h4 {
+	color: $dark-baby-blue;
+	font-family: $bold-sans-serif;
+	font-size: 1em;
+	letter-spacing: .5px;
+	text-align: left;
+	text-transform: uppercase;
+	padding: 0 50px 0 55px;
+	margin-top: 60px;
+}
+
+.sample-headline h4 span {
+	padding-bottom: .3em;
+	border-bottom: 3px solid $dark-baby-blue;
+}
+
+.sample-headline h1 {
+	font-size: 5em !important;
+	padding: 0 50px 0 50px;
+	margin: .4em 0 0 0;
+}
+
+.sample-copy {
+	font-family: $serif;
+	font-size: 1.3em;
+	text-align: left;
+	background-color: #F4F8FA;
+	margin: 0;
+	width: 60%;
+	min-height: 100%;
+	display: inline-block;
+}
+
+.sample-copy-container {
+	padding: 0 10% 0 8%;
+	margin: 60px 0 60px 0;
+}
+
+.sample-copy p {
+  color: $baby-blue;
+	margin-top: 0;
+	margin-bottom: 1em;
 }
