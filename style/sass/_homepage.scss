@@ -1,168 +1,137 @@
 // Hero Section styling
 .hero {
-	background: $warm-gray url("../../assets/images/bg.svg") no-repeat center center;
-	width: 100%;
-	height: 490px;
-	text-align: left;
-	padding-top: 3em;
-	display: flex;
 	align-items: center; /* align vertical */
-}
-
-.cover {
-	width: 50%;
-	display: inline-block;
-	text-align: right;
-	overflow: hidden;
-}
-
-.copy {
-	width: 50%;
+	background: $warm-gray url("../../assets/images/bg.svg") no-repeat center center;
+	display: flex;
+	height: 490px;
+	padding-top: 3em;
 	text-align: left;
-	display: inline-block;
-	float: left;
-	margin-left: 3em;
-}
-
-.hero h1 {
-	color: $purple;
-	font-size: 4em;
-	letter-spacing: -1px;
-	line-height: 1.1em;
-	margin: 0;
-	text-align: left;
-}
-
-.hero h2 {
-	font-family: $serif;
-	color: $light-gray;
-	font-size: 1.4em;
-	line-height: 1.4;
-	margin-top: .2em;
-	margin-bottom: 1.4em;
-	padding-right: 4em;
-	text-align: left;
-}
-
-.hero ul,li {
-	color: $white;
-	margin-top: 0;
-	list-style: none;
-}
-
-a.purchase-button {
-	font-family: $bold-sans-serif;
-	font-size: 1.4em;
-	line-height: 1em;
-	color: $white;
-	background-color: #BCD5A2;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	-khtml-border-radius: 6px;
-	border-radius: 6px;
-	padding: .7em .9em .7em .9em;
-	text-decoration: none;
-	text-align: center;
-	margin-bottom: .5em;
-}
-
-a:hover.purchase-button {
-	opacity: .8;
+	width: 100%;
+	.cover {
+		display: inline-block;
+		overflow: hidden;
+		text-align: right;
+		width: 50%;
+	}
+	.copy {
+		display: inline-block;
+		float: left;
+		margin-left: 3em;
+		text-align: left;
+		width: 50%;
+		h2 {
+			color: $light-gray;
+			font-family: $serif;
+			font-size: 1.4rem;
+			line-height: 1.4;
+			margin-bottom: 1.4em;
+			margin-top: .2em;
+			padding-right: 4em;
+			text-align: left;
+		}
+		a.purchase-button {
+			color: $white;
+			background-color: #BCD5A2;
+			border-radius: 6px;
+			font-family: $bold-sans-serif;
+			font-size: 1.4rem;
+			line-height: 1;
+			padding: .7em .9em .7em .9em;
+			margin-bottom: .5em;
+			text-align: center;
+			text-decoration: none;
+			-moz-border-radius: 6px;
+			-webkit-border-radius: 6px;
+			-khtml-border-radius: 6px;
+			&hover {
+				opacity: .8;
+			}
+		}
+	}
 }
 // End Hero section styling
 
 // Styling for Chapter section
 .chapters {
-	text-align: center;
 	height: 430px;
-}
-
-.chapters h3 {
-	font-size: 1.3em;
-	padding: 0 30% 0 30%;
-	margin-bottom: 2em;
-}
-
-.chapters ul {
-	width: 100%;
-	display: inline-block;
-	list-style-type: none;
-	float: left;
-	margin-top: 0;
-	padding: 0;
-}
-
-.chapters li {
-	vertical-align: top;
-	display: inline-block;
-	padding: 0 10px 0 10px;
-	margin: 0 2em 4em 2em;
-}
-
-.chapters li img {
-	display: block;
 	text-align: center;
-	margin: 0;
+	h3 {
+		padding: 0 30% 0 30%;
+		margin-bottom: 2em;
+	}
+	ul {
+		display: inline-block;
+		float: left;
+		list-style-type: none;
+		padding: 0;
+		margin-top: 0;
+		width: 100%;
+		li {
+			display: inline-block;
+			padding: 0 10px 0 10px;
+			margin: 0 2em 4em;
+			vertical-align: top;
+			img {
+				display: block;
+				margin: 0;
+				text-align: center;
+			}
+		}
+	}
 }
 // End Chapter section styling
 
 // Sample section styling
 .sample-container {
-	vertical-align: top;
 	height: 370px;
-}
-
-.sample-headline {
-	background-color: $baby-blue;
-	margin-right: 0;
-	width: 40%;
-	height: 100%;
-	display: inline-block;
-	float: left;
-	overflow: hidden;
-}
-
-.sample-headline h2 {
-  font-size: 4em;
-  color: $white;
-  margin: 0 0 0 0.4em;
-  text-align: left;
-}
-
-.sample-headline h4 {
-	color: $dark-baby-blue;
-	font-family: $bold-sans-serif;
-	font-size: 1em;
-	letter-spacing: .5px;
-	text-align: left;
-	text-transform: uppercase;
-	padding: 0 50px 0 55px; // TODO: change to match h2 so that they always align
-	margin-top: 60px;
-}
-
-.sample-headline h4 span {
-	padding-bottom: .3em;
-	border-bottom: 3px solid $dark-baby-blue;
-}
-
-.sample-copy {
-	font-family: $serif;
-	font-size: 1.3em;
-	text-align: left;
-	background-color: #F4F8FA;
-	margin: 0;
-	width: 60%;
-	height: 100%;
-	display: inline-block;
-}
-
-.sample-copy-container {
-	padding: 0 10% 0 8%;
-	margin: 60px 0 60px 0;
-}
-
-.sample-copy p {
-  color: $baby-blue;
-	margin-top: 0;
-	margin-bottom: 1em;
+	vertical-align: top;
+	.sample-headline {
+		background-color: $baby-blue;
+		display: inline-block;
+		height: 100%;
+		float: left;
+		margin-right: 0;
+		overflow: hidden;
+		width: 40%;
+		h2 {
+			color: $white;
+		  font-size: 4rem;
+		  margin: 0 0 0 8%;
+		  text-align: left;
+		}
+		h4 {
+			color: $dark-baby-blue;
+			font-family: $bold-sans-serif;
+			font-size: 1rem;
+			letter-spacing: .5px;
+			margin-top: 60px;
+			padding: 0 0 0 8%;
+			text-align: left;
+			text-transform: uppercase;
+			span {
+				border-bottom: 3px solid $dark-baby-blue;
+				padding-bottom: .3em;
+			}
+		}
+	}
+	.sample-copy {
+		background-color: #F4F8FA;
+		font-family: $serif;
+		font-size: 1.3rem;
+		display: inline-block;
+		height: 100%;
+		margin: 0;
+		text-align: left;
+		width: 60%;
+		.sample-copy-container {
+			padding: 0 10% 0 8%;
+			margin: 60px 0 60px 0;
+		}
+		p {
+		  color: $baby-blue;
+			font-size: 1.25rem;
+			margin-bottom: 1em;
+			margin-top: 0;
+		}
+	}
 }
