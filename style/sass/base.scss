@@ -1,10 +1,10 @@
 @import "reset";
-@import "grid";
+@import "grid"; // might be able to delete, doesn't appear to be used anywhere
 @import "fonts";
 @import "animation";
 @import "variables";
 @import "typography";
-@import "homepage"; // stylesheet for Hero portion, could be moved to a homepage only stylesheet
+@import "homepage";
 @import "oldstyle"; // will be removed once everything's been separated out
 
 // Base styles
