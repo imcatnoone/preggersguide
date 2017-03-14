@@ -135,3 +135,38 @@
 		}
 	}
 }
+// End Sample section styling
+
+// Begin Quote section styling
+.quotes {
+	height: 300px;
+	margin-top: .5em;
+	text-align: center;
+	width: 100%;
+	.quote {
+		align-items: center; /* align vertical */
+		display: inline-block;
+		display: flex;
+		float: left;
+		justify-content: center; /* align horizontal */
+		min-height: 100%;
+		text-align: center;
+		width: 33.33333%;
+		h3 {
+			font-family: $bold-serif;
+			font-size: 1.8rem;
+			line-height: 1.6;
+			margin-bottom: 0;
+			padding: 1em;
+			text-align: center;
+			span {
+				background-color: $green;
+				box-decoration-break: clone;
+				color: $white;
+				padding: .2em;
+				-webkit-box-shadow: 0.5em 0px 0px #BCD5A2, -0.5em 0px 0px #BCD5A2;
+				box-shadow: 0.5em 0px 0px #BCD5A2, -0.5em 0px 0px #BCD5A2;
+			}
+		}
+	}
+}

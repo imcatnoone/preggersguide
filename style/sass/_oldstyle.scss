@@ -1,39 +1,3 @@
-.quotes {
-	text-align: center;
-	width: 100%;
-	height: 300px;
-	margin-top: .5em;
-}
-
-.quote {
-	text-align: center;
-	width: 33.33333%;
-	display: inline-block;
-	min-height: 100%;
-	float: left;
-	display: flex;
-	justify-content: center; /* align horizontal */
-	align-items: center; /* align vertical */
-}
-
-.quote h3 {
-	font-family: Bariol-Serif-Bold;
-	font-size: 1.8em;
-	line-height: 1.6em;
-	text-align: center;
-	padding: 1em;
-	margin-bottom: 0;
-}
-
-.quote h3 span {
-	color: $white;
-	background-color: #BCD5A2;
-	padding: .2em;
-	-webkit-box-shadow: 0.5em 0px 0px #BCD5A2, -0.5em 0px 0px #BCD5A2;
-	box-shadow: 0.5em 0px 0px #BCD5A2, -0.5em 0px 0px #BCD5A2;
-	box-decoration-break: clone;
-}
-
 .subscribe {
 	text-align: center;
 	border-top: 1px solid #e2e3e4;
