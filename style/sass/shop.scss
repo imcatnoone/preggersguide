@@ -1,131 +1,31 @@
-/* first for IE 4–8 */
-@font-face {
-  font-family: KievitWebPro-Black;
-  src: url("KievitWebPro-Black.eot");
-}
-
-/* then for WOFF-capable browsers */
-@font-face {
-  font-family: KievitWebPro-Black;
-  src: url("KievitWebPro-Black.woff") format("woff");
-}
-
-/* first for IE 4–8 */
-@font-face {
-  font-family: KievitWebPro-Bold;
-  src: url("KievitWebPro-Bold.eot");
-}
-
-/* then for WOFF-capable browsers */
-@font-face {
-  font-family: KievitWebPro-Bold;
-  src: url("KievitWebPro-Bold.woff") format("woff");
-}
-
-/* first for IE 4–8 */
-@font-face {
-  font-family: KievitWebPro;
-  src: url("KievitWebPro.eot");
-}
-
-/* then for WOFF-capable browsers */
-@font-face {
-  font-family: KievitWebPro;
-  src: url("KievitWebPro.woff") format("woff");
-}
-
-/* first for IE 4–8 */
-@font-face {
-  font-family: KievitWebPro;
-  src: url("KievitWebPro-Ita.eot");
-  font-weight: normal;
-  font-style: italic;
-}
-
-/* then for WOFF-capable browsers */
-@font-face {
-  font-family: KievitWebPro;
-  src: url("KievitWebPro-Ita.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-}
-
-/* first for IE 4–8 */
-@font-face {
-  font-family: KievitWebPro;
-  src: url("KievitWebPro-Bold.eot");
-  font-weight: bold;
-  font-style: normal;
-}
-
-/* then for WOFF-capable browsers */
-@font-face {
-  font-family: KievitWebPro;
-  src: url("KievitWebPro-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-font-family: entypo;
-src: url('../assets/fonts/entypo.ttf'),
-     url('../assets/fonts/entypo.eot'); /* IE9 */
--webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-font-family: entypo-social;
-src: url('../assets/fonts/entypo-social.ttf'),
-     url('../assets/fonts/entypo-social.eot'); /* IE9 */
--webkit-font-smoothing: antialiased;
-}
+@import "reset";
+@import "fonts";
+@import "variables";
+@import "typography";
 
 /* Toast Framework - type.css */
 body {
 	font: 1.2em/1.5 KievitWebPro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	background-color: #fafafa;
-	-webkit-font-smoothing: antialiased;
-}
-
-p {
-	font-size: 1em;
-	line-height: 1.5em;
-	color: #69717b;
-	margin-bottom: 1.5em;
-	font-weight: normal;
-}
-
-strong {
-	font-family: KievitWebPro-Bold;
-	font-weight: normal;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	color: #343434;
-	-webkit-font-smoothing: antialiased;
-	text-align: center;
-	font-weight: normal;
 }
 
 h1 {
     font-size: 1.6em;
-    line-height: 1em;
-    margin-bottom: .5em;
 }
 h2 {
 	font-family: KievitWebPro-Bold;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    margin-top: .6em;
-    margin-bottom: .6em;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin-top: .6em;
+  margin-bottom: .6em;
 }
 h3 {
-    font-size: 1em;
-   	color: #818c97;
-    line-height: 1em;
-    margin-top: 1em;
-    margin-bottom: .4em;
-    text-align: left;
+  font-size: 1em;
+ 	color: #818c97;
+  line-height: 1em;
+  margin-top: 1em;
+  margin-bottom: .4em;
+  text-align: left;
 }
 h4 {
 	font-size: 1.2em;
@@ -178,10 +78,6 @@ a:hover {
 
 .twitter-share-button {
 	margin-right: 5px;
-}
-
-.entypo {
-	font-family: entypo;
 }
 
 .social {

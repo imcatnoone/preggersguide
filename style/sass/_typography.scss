@@ -1,0 +1,63 @@
+html {
+	font-size: 16px;
+	// Set the base font value, then base all sizes on this using rem
+	// instead of em (keeps scaling easier and in relation to each other)
+}
+
+p {
+	font-size: 1rem;
+	line-height: 1.5;
+	color: $gray;
+	font-weight: normal;
+}
+
+strong {
+	font-family: $specialty-bold;
+	font-weight: normal;
+}
+
+h1, h2, h4, h5, h6 {
+	color: $purple;
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	font-weight: normal;
+}
+
+h1 {
+    font-size: 4rem;
+		letter-spacing: -1px;
+    line-height: 1.1;
+		margin: 0;
+		text-align: left;
+}
+h2 {
+    font-size: 2rem;
+    line-height: 1;
+}
+h3 {
+    font-size: 1.3rem;
+   	color: $light-gray;
+    line-height: 1.4;
+    -webkit-margin-before: 0;
+}
+h4 {
+	font-size: 1.2rem;
+	line-height: 1.5;
+
+}
+h5 {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: left;
+}
+h6 {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.2;
+    color: $blue-violet;
+    text-align: center;
+}
+
+.entypo {
+	font-family: entypo;
+}
