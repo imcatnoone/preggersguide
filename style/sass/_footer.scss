@@ -54,3 +54,19 @@
 	padding-right: 0;
 	margin-right: 0;
 }
+
+/* Mobile */
+@media (max-width: 480px) and (min-width: 321px) {
+  .footer {
+  	display: block;
+  	float: left;
+  	margin: 1em ;
+    p {
+      display: inline-block;
+    	font-size: .8em;
+    	margin-bottom: .5em;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
