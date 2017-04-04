@@ -1,46 +1,5 @@
 /* Media Queries */
-/* Tablet */
-@media (max-width: 768px) and (min-width: 641px) {
-  .chapters h3 {
-  	font-size: 1.3em;
-  	padding: 0 15% 0 15%;
-  	margin-bottom: 2em;
-  }
 
-  .sample-headline h4 {
-  	padding: 0 30px 0 35px;
-  	margin-top: 50px;
-  }
-
-  .sample-headline h4 span {
-  	padding-bottom: .3em;
-  	border-bottom: 2px solid #7FB9CB;
-  }
-
-  .sample-headline h1 {
-  	font-size: 3.5em !important;
-  	padding: 0 30px 0 30px;
-  }
-
-  .sample-copy {
-  	font-size: 1em;
-  }
-
-  .sample-copy-container {
-  	padding: 0 10% 0 8%;
-  	margin: 50px 0 50px 0;
-  }
-
-  .quotes {
-  	text-align: center;
-  	width: 100%;
-  	height: 300px;
-  	margin-top: .5em;
-  	display: block;
-  	float: left;
-  }
-
-}
 
 /* Mobile */
 @media (max-width: 640px) and (min-width: 481px) {
