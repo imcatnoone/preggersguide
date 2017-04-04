@@ -171,3 +171,358 @@
 		}
 	}
 }
+
+/* Tablet */
+@media (max-width: 1136px) and (min-width: 769px) {
+  .sample-headline {
+		h1 {
+			// TODO: try to remove the important, might be able to remove font-size
+	  	font-size: 4.3em !important;
+	  	padding: 0 30px 0 30px;
+	  }
+		h4 {
+	  	padding: 0 30px 0 35px;
+			span {
+		  	padding-bottom: .3em;
+		  }
+	  }
+	}
+
+  .sample-copy {
+		// TODO: might be able to remove font-size
+  	font-size: 1.2em;
+  }
+
+  .quotes {
+		display: block;
+		float: left;
+  	height: 300px;
+  	margin-top: .5em;
+		text-align: center;
+		width: 100%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) and (min-width: 641px) {
+  .chapters {
+		h3 {
+	  	font-size: 1.3em;
+	  	margin-bottom: 2em;
+			padding: 0 15% 0 15%;
+	  }
+	}
+
+	.sample-headline {
+		h1 {
+			// TODO: see if we can remove the important, and if we need the font-size
+	  	font-size: 3.5em !important;
+	  	padding: 0 30px 0 30px;
+	  }
+		h4 {
+			margin-top: 50px;
+	  	padding: 0 30px 0 35px;
+			span {
+				border-bottom: 2px solid #7FB9CB;
+		  	padding-bottom: .3em;
+		  }
+	  }
+	}
+
+  .sample-copy {
+  	font-size: 1em;
+		.sample-copy-container {
+	  	padding: 0 10% 0 8%;
+	  	margin: 50px 0 50px 0;
+	  }
+  }
+
+  .quotes {
+  	text-align: center;
+  	width: 100%;
+  	height: 300px;
+  	margin-top: .5em;
+  	display: block;
+  	float: left;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) and (min-width: 321px) {
+	// TODO: Check this section to make sure everything is needed, lots of styling in here
+  .hero {
+		align-items: center;
+		display: block;
+  	height: 323px;
+  	padding-top: 2em;
+  	text-align: center;
+		.cover {
+			display: block;
+	  	overflow: hidden;
+			text-align: center;
+			width: 100%;
+			img {
+		  	width: 250px;
+		  }
+	  }
+		.copy {
+			display: block;
+			margin-left: 0;
+	  	text-align: center;
+			width: 100%;
+			h1 {
+		  	font-size: 3em;
+		  	line-height: 1.1em;
+		  	margin: .4em 0 0 0;
+				padding: 0 30px 0 30px;
+				text-align: center;
+		  }
+			h2 {
+		  	font-size: 1.2em;
+		  	line-height: 1.4;
+		  	margin: .4em 0 0 0;
+				padding: 0 30px 0 30px;
+				text-align: center;
+		  }
+	  }
+		a.purchase-button {
+			display: inline-block;
+	  	font-size: 1.4em;
+	  	line-height: 1em;
+	  	margin-top: 1em;
+	  	margin-left: 0;
+			width: 80%;
+	  }
+  }
+
+  .chapters {
+  	display: block;
+  	float: left;
+		height: auto;
+		text-align: center;
+		width: 100%;
+		h3 {
+	  	font-size: 1.2em;
+	  	padding: 0 11% 0 11%;
+	  }
+		ul {
+	  	display: inline-block;
+	  	margin-top: 0;
+	  	padding: 0;
+			li {
+		  	margin: 0 1.3em 3em 1.3em;
+				padding: 0 10px 0 10px;
+		  }
+	  }
+  }
+
+  .sample-container {
+		height: 226px;
+  	vertical-align: top;
+		.sample-headline {
+	  	background-color: $baby-blue;
+			display: block;
+	  	margin-right: 0;
+	  	min-height: 100%;
+			width: 100%;
+			h1 {
+		  	font-size: 3.5em !important;
+		  	margin: 0;
+				padding: 0 30px 0 30px;
+		  }
+			h4 {
+		  	color: #7FB9CB;
+		  	font-family: $bold-sans-serif;
+		  	font-size: 1em;
+		  	letter-spacing: .5px;
+		  	margin-top: 30px;
+				padding: 0 30px 0 30px;
+				text-align: left;
+				text-transform: uppercase;
+		  }
+	  }
+		.sample-copy {
+			background-color: #F4F8FA;
+			display: block;
+			float: left;
+	  	font-family: serif;
+	  	font-size: 1.2em;
+	  	margin: 0;
+			text-align: left;
+			width: 100%;
+			.sample-copy-container {
+		  	margin: 30px 0 60px 0;
+				padding: 0 10% 0 8%;
+		  }
+			p {
+		  	margin-top: 0;
+		  	margin-bottom: 1em;
+		  }
+	  }
+  }
+
+  .quotes {
+		height: 250px;
+		margin-top: .5em;
+  	text-align: center;
+  	width: 100%;
+		.quote {
+			align-items: center; /* align vertical */
+			background-color: #f1cfcf;
+			display: block;
+			display: flex;
+			justify-content: center; /* align horizontal */
+	  	min-height: 100%;
+			text-align: center;
+	  	width: 100%;
+			h3 {
+				color: $white;
+		  	font-family: $bold-serif;
+		  	font-size: 1.6em;
+		  	margin-bottom: 0;
+				padding: 1.4em;
+				text-align: center;
+		  }
+	  }
+  }
+}
+
+/* Mobile */
+@media (max-width: 320px) and (min-width: 0px) {
+	// TODO: lots of styling in here, see what we can take out
+  .hero {
+		align-items: center;
+		display: block;
+  	height: 323px;
+  	padding-top: 2em;
+  	text-align: center;
+		.cover {
+			display: block;
+	  	overflow: hidden;
+			text-align: center;
+			width: 100%;
+			img {
+		  	width: 250px;
+		  }
+	  }
+		.copy {
+			display: block;
+	  	margin-left: 0;
+			text-align: center;
+			width: 100%;
+			h1 {
+		  	font-size: 3em;
+				line-height: 1.1em;
+				margin: .4em 0 0 0;
+				padding: 0 30px 0 30px;
+		  	text-align: center;
+		  }
+			h2 {
+		  	font-size: 1.2em;
+		  	line-height: 1.4;
+				margin: .4em 0 0 0;
+		  	padding: 0 30px 0 30px;
+				text-align: center;
+		  }
+			a.purchase-button {
+				display: inline-block;
+		  	font-size: 1.4em;
+		  	line-height: 1em;
+		  	margin-top: 1em;
+		  	margin-left: 0;
+				width: 80%;
+		  }
+	  }
+  }
+
+  .chapters {
+		display: block;
+		float: left;
+		height: auto;
+  	text-align: center;
+  	width: 100%;
+		h3 {
+	  	font-size: 1.2em;
+	  	padding: 0 11% 0 11%;
+	  }
+		ul {
+	  	display: inline-block;
+	  	margin-top: 0;
+	  	padding: 0;
+			li {
+		  	padding: 0 10px 0 10px;
+		  	margin: 0 1.3em 3em 1.3em;
+		  }
+	  }
+  }
+
+  .sample-container {
+		height: 200px;
+  	vertical-align: top;
+		.sample-headline {
+	  	background-color: $baby-blue;
+			display: block;
+	  	margin-right: 0;
+			min-height: 100%;
+	  	width: 100%;
+	  }
+		h1 { // TODO: remove, not used
+	  	font-size: 3em !important;
+	  	padding: 0 30px 0 30px;
+	  	margin: 0;
+	  }
+		h4 {
+	  	color: $dark-baby-blue;
+	  	font-family: $bold-sans-serif;
+	  	font-size: 1em;
+	  	letter-spacing: .5px;
+			margin-top: 30px;
+			padding: 0 30px 0 30px;
+	  	text-align: left;
+	  	text-transform: uppercase;
+	  }
+		.sample-copy {
+			background-color: #F4F8FA;
+			display: block;
+			float: left;
+			font-family: serif;
+			font-size: 1.2em;
+			margin: 0;
+			text-align: left;
+			width: 100%;
+			.sample-copy-container {
+		  	padding: 0 10% 0 8%;
+		  	margin: 30px 0 60px 0;
+				p {
+			  	margin-top: 0;
+			  	margin-bottom: 1em;
+			  }
+		  }
+		}
+  }
+
+  .quotes {
+		height: 250px;
+		margin-top: .5em;
+  	text-align: center;
+  	width: 100%;
+		.quote {
+			align-items: center; /* align vertical */
+	  	background-color: #f1cfcf;
+			display: block;
+			display: flex;
+			justify-content: center; /* align horizontal */
+	  	min-height: 100%;
+			text-align: center;
+			width: 100%;
+			h3 {
+				color: $white;
+		  	font-family: $bold-serif;
+		  	font-size: 1.6em;
+		  	margin-bottom: 0;
+				padding: 1.4em;
+				text-align: center;
+		  }
+	  }
+  }
+}
