@@ -386,3 +386,143 @@
 	  }
   }
 }
+
+/* Mobile */
+@media (max-width: 320px) and (min-width: 0px) {
+	// TODO: lots of styling in here, see what we can take out
+  .hero {
+		align-items: center;
+		display: block;
+  	height: 323px;
+  	padding-top: 2em;
+  	text-align: center;
+		.cover {
+			display: block;
+	  	overflow: hidden;
+			text-align: center;
+			width: 100%;
+			img {
+		  	width: 250px;
+		  }
+	  }
+		.copy {
+			display: block;
+	  	margin-left: 0;
+			text-align: center;
+			width: 100%;
+			h1 {
+		  	font-size: 3em;
+				line-height: 1.1em;
+				margin: .4em 0 0 0;
+				padding: 0 30px 0 30px;
+		  	text-align: center;
+		  }
+			h2 {
+		  	font-size: 1.2em;
+		  	line-height: 1.4;
+				margin: .4em 0 0 0;
+		  	padding: 0 30px 0 30px;
+				text-align: center;
+		  }
+			a.purchase-button {
+				display: inline-block;
+		  	font-size: 1.4em;
+		  	line-height: 1em;
+		  	margin-top: 1em;
+		  	margin-left: 0;
+				width: 80%;
+		  }
+	  }
+  }
+
+  .chapters {
+		display: block;
+		float: left;
+		height: auto;
+  	text-align: center;
+  	width: 100%;
+		h3 {
+	  	font-size: 1.2em;
+	  	padding: 0 11% 0 11%;
+	  }
+		ul {
+	  	display: inline-block;
+	  	margin-top: 0;
+	  	padding: 0;
+			li {
+		  	padding: 0 10px 0 10px;
+		  	margin: 0 1.3em 3em 1.3em;
+		  }
+	  }
+  }
+
+  .sample-container {
+		height: 200px;
+  	vertical-align: top;
+		.sample-headline {
+	  	background-color: $baby-blue;
+			display: block;
+	  	margin-right: 0;
+			min-height: 100%;
+	  	width: 100%;
+	  }
+		h1 { // TODO: remove, not used
+	  	font-size: 3em !important;
+	  	padding: 0 30px 0 30px;
+	  	margin: 0;
+	  }
+		h4 {
+	  	color: $dark-baby-blue;
+	  	font-family: $bold-sans-serif;
+	  	font-size: 1em;
+	  	letter-spacing: .5px;
+			margin-top: 30px;
+			padding: 0 30px 0 30px;
+	  	text-align: left;
+	  	text-transform: uppercase;
+	  }
+		.sample-copy {
+			background-color: #F4F8FA;
+			display: block;
+			float: left;
+			font-family: serif;
+			font-size: 1.2em;
+			margin: 0;
+			text-align: left;
+			width: 100%;
+			.sample-copy-container {
+		  	padding: 0 10% 0 8%;
+		  	margin: 30px 0 60px 0;
+				p {
+			  	margin-top: 0;
+			  	margin-bottom: 1em;
+			  }
+		  }
+		}
+  }
+
+  .quotes {
+		height: 250px;
+		margin-top: .5em;
+  	text-align: center;
+  	width: 100%;
+		.quote {
+			align-items: center; /* align vertical */
+	  	background-color: #f1cfcf;
+			display: block;
+			display: flex;
+			justify-content: center; /* align horizontal */
+	  	min-height: 100%;
+			text-align: center;
+			width: 100%;
+			h3 {
+				color: $white;
+		  	font-family: $bold-serif;
+		  	font-size: 1.6em;
+		  	margin-bottom: 0;
+				padding: 1.4em;
+				text-align: center;
+		  }
+	  }
+  }
+}

@@ -70,3 +70,27 @@
     }
   }
 }
+
+@media (max-width: 320px) and (min-width: 0px) {
+  .footer {
+    display: block;
+    float: left;
+    margin: 1em ;
+    img.about {
+      width: 50px !important;
+      margin-top: 20px;
+      margin-bottom: 5px;
+      -moz-border-radius: 75px;
+      -webkit-border-radius: 75px;
+      -khtml-border-radius: 75px;
+      border-radius: 75px;
+    }
+    p {
+      width: 100%;
+      font-size: .8em;
+      text-align: center;
+      display: inline-block;
+      margin-bottom: .5em;
+    }
+  }
+}
