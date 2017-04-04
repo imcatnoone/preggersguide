@@ -75,3 +75,19 @@ a {
 	border-radius: 600px;
 	padding: 24px 23px 22px 23px;
 }
+
+// Subscribe styles
+.subscribe {
+	text-align: center;
+	border-top: 1px solid $border-gray;
+	padding: none;
+	padding-top: 1.4em !important;
+	margin: 0;
+	margin-bottom: 1em !important;
+	h6 {
+		border-top: 1px solid $border-gray;
+		border-bottom: none;
+		line-height: 1.3em;
+		text-align: center;
+	}
+}
