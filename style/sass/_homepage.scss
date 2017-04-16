@@ -158,12 +158,15 @@
 		align-items: center; /* align vertical */
     background-position: center;
     background-repeat: no-repeat;
-		display: flex;
+		display: none;
 		float: left;
 		justify-content: center; /* align horizontal */
-		min-height: 100%;
+		min-height: 300px;
 		text-align: center;
 		width: 33.33333%;
+    &.active {
+      display: flex;
+    }
 		h3 {
 			font-family: $bold-serif;
 			font-size: 1.8rem;
