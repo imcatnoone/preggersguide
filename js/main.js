@@ -1,7 +1,7 @@
 $(function() {
     $('a').bind('click',function(event){
         var $anchor = $(this);
-        
+
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
         }, 1000,'easeInOutExpo');
@@ -14,6 +14,14 @@ $(function() {
         event.preventDefault();
     });
 });
+
+// Quotes Fade In and Fade Out
+$(function () {
+  $('#quote-1').removeClass('active');
+  $('#quote-1').next().addClass('active');
+});
+// so the thing is happening, just very quickly
+
 
 /*var language = window.navigator.userLanguage || window.navigator.language;
 
