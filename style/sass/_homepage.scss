@@ -76,6 +76,15 @@
 				margin: 0;
 				text-align: center;
 			}
+      .about {
+        -moz-border-radius: 75px;
+        -webkit-border-radius: 75px;
+        -khtml-border-radius: 75px;
+        border-radius: 75px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        width: 75px !important;
+      }
 		}
 	}
 }
