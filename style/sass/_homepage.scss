@@ -149,13 +149,15 @@
 // Begin Quote section styling
 // TODO: fade-in-fade-out this section
 .quotes {
+  display: inline-block;
 	height: 300px;
 	margin-top: .5em;
 	text-align: center;
 	width: 100%;
 	.quote {
 		align-items: center; /* align vertical */
-		display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
 		display: flex;
 		float: left;
 		justify-content: center; /* align horizontal */
