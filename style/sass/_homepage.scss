@@ -148,6 +148,43 @@
 
 // Begin Quote section styling
 // TODO: fade-in-fade-out this section
+.carousel {
+  height: 300px;
+  margin-top: .5em;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  li {
+    align-items: center; /* align vertical */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    float: left;
+    justify-content: center; /* align horizontal */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 33.33333%;
+    &.hide {
+      display: none;
+    }
+    h3 {
+      font-family: $bold-serif;
+      font-size: 1.8rem;
+      line-height: 1.6;
+      margin:20% 0 0 0;
+      padding: 1em;
+      text-align: center;
+      span {
+        background-color: $green;
+        color: $white;
+        padding: .2em;
+        -webkit-box-shadow: 0.5em 0px 0px #BCD5A2, -0.5em 0px 0px #BCD5A2;
+        box-shadow: 0.5em 0px 0px #BCD5A2, -0.5em 0px 0px #BCD5A2;
+      }
+    }
+  }
+}
 .quotes {
   display: inline-block;
 	height: 300px;

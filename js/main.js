@@ -16,11 +16,13 @@ $(function() {
 });
 
 // Quotes Fade In and Fade Out
-$(function () {
-  $('#quote-1').removeClass('active');
-  $('#quote-1').next().addClass('active');
-});
-// so the thing is happening, just very quickly
+// $( "p:first" ).fadeToggle( "slow", "linear" );
+// });
+// $(function () {
+//   $('#quotes').children('.first').fadeToggle(1000, function () {
+//     // animation complete
+//   })
+// });
 
 
 /*var language = window.navigator.userLanguage || window.navigator.language;
