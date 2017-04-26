@@ -15,15 +15,6 @@ $(function() {
     });
 });
 
-// Quotes Fade In and Fade Out
-// $( "p:first" ).fadeToggle( "slow", "linear" );
-// });
-// $(function () {
-//   $('#quotes').children('.first').fadeToggle(1000, function () {
-//     // animation complete
-//   })
-// });
-
 
 /*var language = window.navigator.userLanguage || window.navigator.language;
 

@@ -29,18 +29,8 @@ jQuery.fn.fadeSlideShow = function(options) {
 			speed: 'slow', // default animation transition speed
 			interval: 3000, // default interval between image change
 			Active: 'fssActive', // default class for active stat
-			PlayPauseElement: 'fssPlayPause', // default css id for the play / pause element
-			PlayText: 'Play', // default play text
-			PauseText: 'Pause', // default pause text
-			NextElement: 'fssNext', // default id for next button
-			NextElementText: 'Next >', // default text for next button
-			PrevElement: 'fssPrev', // default id for prev button
-			PrevElementText: '< Prev', // default text for prev button
-			ListElement: 'fssList', // default id for image / content controll list
-			ListLi: 'fssLi', // default class for li's in the image / content controll
 			ListLiActive: 'fssActive', // default class for active state in the controll list
 			addListToId: false, // add the controll list to special id in your code - default false
-			allowKeyboardCtrl: true, // allow keyboard controlls left / right / space
 			autoplay: true, // autoplay the slideshow
 			beforeSlide: function(){}, // function to call before going to the next slide
 			afterSlide: function(){} // function to call after going to the next slide
@@ -189,50 +179,6 @@ jQuery.fn.fadeSlideShow = function(options) {
 					autoplay();
 				}
 				return false;
-			});
-		}
-
-		if(settings.NextElement){
-			if(!jQuery('#'+settings.NextElement).css('display')){
-				jQuery(this).after('<a href="#" id="'+settings.NextElement+'">'+settings.NextElementText+'<\/a>');
-			}
-
-			jQuery('#'+settings.NextElement).bind('click', function(){
-				nextSlide = ActSlide-1;
-				stopAutoplay();
-				jumpTo(nextSlide);
-				return false;
-			});
-		}
-
-		if(settings.PrevElement){
-			if(!jQuery('#'+settings.PrevElement).css('display')){
-				jQuery(this).after('<a href="#" id="'+settings.PrevElement+'">'+settings.PrevElementText+'<\/a>');
-			}
-
-			jQuery('#'+settings.PrevElement).bind('click', function(){
-				prevSlide = ActSlide+1;
-				stopAutoplay();
-				jumpTo(prevSlide);
-				return false;
-			});
-		}
-
-		if(settings.allowKeyboardCtrl){
-			jQuery(document).bind('keydown', function(e){
-				if(e.which==39){
-					var nextSlide = ActSlide-1;
-					stopAutoplay();
-					jumpTo(nextSlide);
-				}else if(e.which==37){
-					var prevSlide = ActSlide+1;
-					stopAutoplay();
-					jumpTo(prevSlide);
-				}else if(e.which==32){
-					if(intval){stopAutoplay();}
-					else{autoplay();}
-					//return false;
-				}
 			});
 		}
 
