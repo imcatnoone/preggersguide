@@ -74,19 +74,23 @@
 		</div>
 	</div>
 	<!-- TODO: FADE IN AND FADE OUT -->
-  <ul id="slideshow" class="carousel">
+  <ul id="slideshow-1" class="carousel">
     <li class="content" style="background-image: url(assets/images/maddie-site.jpg);">
       <h3><span>"Straight to the point. Much like labor."</span></h3>
     </li>
     <li class="content" style="background-image: url(assets/images/cat-site.jpg);">
       <h3><span>"Straight to the point. Much like labor."</span></h3>
     </li>
+  </ul>
+  <ul id="slideshow-2" class="carousel">
     <li class="content" style="background-image: url(assets/images/ashley-site.jpg);">
       <h3><span>"Straight to the point. Much like labor."</span></h3>
     </li>
     <li class="content" style="background-image: url(assets/images/cat-site.jpg);">
       <h3><span>"Straight to the point. Much like labor."</span></h3>
     </li>
+  </ul>
+  <ul id="slideshow-3" class="carousel">
     <li class="content" style="background-image: url(assets/images/ashley-site.jpg);">
       <h3><span>"Straight to the point. Much like labor."</span></h3>
     </li>
@@ -132,7 +136,9 @@
   <!-- SCRIPT TO START FADE-IN-FADE-OUT -->
   <script type="text/javascript">
     jQuery(document).ready(function(){
-  	   jQuery('#slideshow').fadeSlideShow();
+  	   jQuery('#slideshow-1').fadeSlideShow();
+  	   jQuery('#slideshow-2').fadeSlideShow();
+  	   jQuery('#slideshow-3').fadeSlideShow();
     });
   </script>
 	<!-- /Java Script -->

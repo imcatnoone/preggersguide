@@ -92,6 +92,7 @@
 
 // Sample section styling
 .sample-container {
+  clear: both;
 	height: 370px;
 	vertical-align: top;
 	.sample-headline {
@@ -149,11 +150,12 @@
 // Begin Quote section styling
 // TODO: fade-in-fade-out this section
 .carousel {
+  float: left;
   height: 300px;
   margin-top: .5em;
   overflow: hidden;
-  position: relative;
-  width: 100%;
+  // position: relative;
+  width: 33.33333%;
   li {
     align-items: center; /* align vertical */
     background-position: center;
@@ -164,7 +166,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 33.33333%;
+    width: 100%;
     &.hide {
       display: none;
     }
