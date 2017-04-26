@@ -136,9 +136,16 @@
   <!-- SCRIPT TO START FADE-IN-FADE-OUT -->
   <script type="text/javascript">
     jQuery(document).ready(function(){
-  	   jQuery('#slideshow-1').fadeSlideShow();
-  	   jQuery('#slideshow-2').fadeSlideShow();
-  	   jQuery('#slideshow-3').fadeSlideShow();
+       setTimeout(function (){
+         jQuery('#slideshow-1').fadeSlideShow();
+       }, 3000);
+       setTimeout(function (){
+         jQuery('#slideshow-2').fadeSlideShow();
+       }, 5000);
+       setTimeout(function (){
+         jQuery('#slideshow-3').fadeSlideShow();
+       }, 7000);
+
     });
   </script>
 	<!-- /Java Script -->
