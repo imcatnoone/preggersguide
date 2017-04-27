@@ -9,12 +9,12 @@
 
 // Base styles
 body {
-	font: 16px/1.5 $sans-serif;
-	background-color: $white;
-	color: $purple;
-	-webkit-font-smoothing: antialiased;
-	padding: 0;
-	margin: 0;
+  font: 16px/1.5 $sans-serif;
+  background-color: $white;
+  color: $purple;
+  -webkit-font-smoothing: antialiased;
+  padding: 0;
+  margin: 0;
 }
 
 ul, ol, dl, blockquote {
@@ -23,11 +23,11 @@ ul, ol, dl, blockquote {
 }
 
 ul, li {
-	color: $dark-gray;
-	list-style: disc;
-	line-height: 1.5em;
-	list-style-position: inside;
-	-webkit-font-smoothing: antialiased;
+  color: $dark-gray;
+  list-style: disc;
+  line-height: 1.5em;
+  list-style-position: inside;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -42,51 +42,51 @@ a {
 
 // Social styles
 .social {
-	width: 100%;
-	text-align: right;
-	position: fixed;
-	margin-right: 0;
-	padding-right: 20px;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  margin-right: 0;
+  padding-right: 20px;
 }
 
 .fb {
-	width: 130px;
-	padding-top: 7px;
+  width: 130px;
+  padding-top: 7px;
 }
 
 .twitter-share-button {
-	margin-right: 5px;
+  margin-right: 5px;
 }
 
 // Price tag styles
 .price-tag {
-	font-size: 2em;
-	line-height: 1em;
-	text-align: center;
-	position: absolute;
-	top: 17px;
-	left: 277px;
-	color: $white;
-	background-color: #F4B400;
-	-moz-border-radius: 600px;
-	-webkit-border-radius: 600px;
-	-khtml-border-radius: 600px;
-	border-radius: 600px;
-	padding: 24px 23px 22px 23px;
+  font-size: 2em;
+  line-height: 1em;
+  text-align: center;
+  position: absolute;
+  top: 17px;
+  left: 277px;
+  color: $white;
+  background-color: #F4B400;
+  -moz-border-radius: 600px;
+  -webkit-border-radius: 600px;
+  -khtml-border-radius: 600px;
+  border-radius: 600px;
+  padding: 24px 23px 22px 23px;
 }
 
 // Subscribe styles
 .subscribe {
-	text-align: center;
-	border-top: 1px solid $border-gray;
-	padding: none;
-	padding-top: 1.4em !important;
-	margin: 0;
-	margin-bottom: 1em !important;
-	h6 {
-		border-top: 1px solid $border-gray;
-		border-bottom: none;
-		line-height: 1.3em;
-		text-align: center;
-	}
+  text-align: center;
+  border-top: 1px solid $border-gray;
+  padding: none;
+  padding-top: 1.4em !important;
+  margin: 0;
+  margin-bottom: 1em !important;
+  h6 {
+    border-top: 1px solid $border-gray;
+    border-bottom: none;
+    line-height: 1.3em;
+    text-align: center;
+  }
 }
