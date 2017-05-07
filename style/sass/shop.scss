@@ -110,68 +110,7 @@ h6 {
   }
 }
 
-
-
-
-
-
-
-.posters {
-  height: 500px;
-  overflow: hidden;
-  text-align: center;
-  margin-top: 0;
-}
-
-.posters h6 {
-  border-top: 1px solid #e2e3e4;
-  border-bottom: none;
-  margin-top: 0;
-  margin-bottom: 1.2em;
-  padding-top: 1.4em;
-}
-
-.posters img {
-  border: 12px solid #fff;
-}
-
-.posters li {
-  display: inline-block;
-  list-style-type: none;
-  list-style: none;
-  margin: 30px 8px;
-}
-
-.purchase-posters-button {
-  font-size: .9em;
-  font-family: KievitWebPro-Bold;
-  font-weight: normal;
-  line-height: 1em;
-  color: #42459d;
-  background-color: #fafafa;
-  border: 2px solid #42459d;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  -khtml-border-radius: 4px;
-  border-radius: 4px;
-  padding: 12px 17px 10px 17px;
-  text-decoration: none;
-  z-index:1000;
-  text-align: center;
-  margin-bottom: 1em;
-}
-
-.gallery li {
-  padding: 0;
-  margin: 0;
-  line-height: 0;
-}
-
-.gallery img {
-  width: 100%;
-  margin: 0;
-}
-
+// Book Shop Styling
 .description {
   color: #8f9ca8;
   font-size: .7em;
@@ -185,27 +124,85 @@ form {
 }
 
 .purchase-button {
+  background-color: #fafafa;
+  border: 2px solid #42459d;
+  color: #42459d;
+  display: block;
   font-size: .9em;
   font-family: KievitWebPro-Bold;
   font-weight: normal;
   line-height: 1em;
-  /* background-color: #42459d; */
-  color: #42459d;
-  background-color: #fafafa;
-  border: 2px solid #42459d;
+  padding: 12px 17px 10px 17px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   -khtml-border-radius: 4px;
   border-radius: 4px;
-  padding: 12px 17px 10px 17px;
-  text-decoration: none;
-  position: relative;
   z-index:1000;
-  text-align: center;
-  display: block;
   margin-bottom: 2em;
   width: 80%;
 }
+
+
+// Poster Shop styling
+.posters {
+  height: 500px;
+  margin-top: 0;
+  overflow: hidden;
+  text-align: center;
+  h6 {
+    border-top: 1px solid #e2e3e4;
+    border-bottom: none;
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    padding-top: 1.4em;
+  }
+  img {
+    border: 12px solid #fff;
+  }
+  li {
+    display: inline-block;
+    list-style-type: none;
+    list-style: none;
+    margin: 30px 8px;
+  }
+  .purchase-posters-button {
+    background-color: #fafafa;
+    border: 2px solid #42459d;
+    color: #42459d;
+    font-size: .9em;
+    font-family: KievitWebPro-Bold;
+    font-weight: normal;
+    line-height: 1em;
+    margin-bottom: 1em;
+    padding: 12px 17px 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+  }
+}
+
+// Footer Styling
+
+// Gallery Styling
+.gallery {
+  li {
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    img {
+      margin: 0;
+      width: 100%;
+    }
+  }
+}
+
+
 
 .block {
   border-bottom: 1px solid #efefef;
